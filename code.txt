@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>תכשיטי זהב מיד שנייה</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(to right, #d4af37, #888);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>תכשיטי זהב מיד שנייה</h1>
+    <p>איכות. אמינות. מחיר הוגן.</p>
+  </header>
+
+  <nav>
+    <a href="#home">בית</a>
+    <a href="#about">אודות</a>
+    <a href="#products">מוצרים</a>
+    <a href="#contact">צור קשר</a>
+  </nav>
+
+  <section id="home">
+    <h2>ברוכים הבאים</h2>
+    <p>כאן תמצאו תכשיטי זהב ייחודיים מיד שנייה במחירים נוחים. כל תכשיט נבדק ונמסר עם אחריות לאותנטיות.</p>
+  </section>
+
+  <section id="about">
+    <h2>אודות</h2>
+    <p>אנחנו עוזרים לאנשים למכור ולקנות תכשיטי זהב בצורה בטוחה. ניסיון של שנים בתחום, אמינות ושירות אישי.</p>
+  </section>
+
+  <section id="products">
+    <h2>מוצרים</h2>
+    <div class="product">
+      <h3>שרשרת זהב 14K</h3>
+      <p>משקל: 6 גרם | מחיר: 1,200 ₪</p>
+    </div>
+    <div class="product">
+      <h3>צמיד זהב 18K</h3>
+      <p>משקל: 8 גרם | מחיר: 1,800 ₪</p>
+    </div>
+    <!-- אפשר להוסיף כאן עוד מוצרים -->
+  </section>
+
+  <section id="contact">
+    <h2>צור קשר</h2>
+    <p>📧 מייל: <a href="mailto:gold@example.com">gold@example.com</a></p>
+    <p>📱 וואטסאפ: <a href="https://wa.me/972500000000" target="_blank">שלח הודעה</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 כל הזכויות שמורות</p>
+  </footer>
+
+</body>
+</html>
